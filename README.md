@@ -56,7 +56,7 @@ This project guides you through the process of setting up a secure pipeline and 
 6. In your web browser, use the public IP address of the machine you are using (e.g., `http://77.77.32.2:8080/`). This will give you access to the visual interface for the Jenkins server.
 7. Define a Jenkins user account for yourself.
 8. Install recommended plugins as well as Pipeline-AWS and Generic Webhooks plugins.
-9. Navigate to the "Manage Jenkins" tab and define credentials for AWS and GitHub.
+9. Navigate to the "Manage Jenkins" tab and define credentials for AWS and GitHub, create and enviroment variable for the `REPO_URL`.
 10. Define a new pipeline item.
 11. Configure the new pipeline to trigger with a webhook.
 12. Define this as a pipeline or Jenkinsfile.
