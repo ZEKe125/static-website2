@@ -66,10 +66,6 @@ This project guides you through the process of setting up a secure pipeline and 
 ```Groovy
 pipeline {
     agent any
-    
-    environment {
-        REPO_URL = 'https://github.com/ZEKe125/static-website2.git'
-    }
 
     stages {
         stage('Checkout') {
